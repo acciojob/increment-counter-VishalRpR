@@ -4,7 +4,8 @@
 		let btn =document.getElementById("incrementBtn").onclick=clicked
 		function clicked(){
            
-			value.innerText=Number(value.innerText)+1
 			alert(value.innerText)
+			value.innerText=Number(value.innerText)+1
+			
 		
 		}
