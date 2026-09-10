@@ -8,7 +8,17 @@
 
 <body>
 	<!-- the entire body must be written by student -->
+
+	<p id="counter">0</p>
+	<button  id="incrementBtn">Increment</button>
     <script type="text/javascript" src="./script.js">
+		let value=document.getDocumentById("counter").value()
+		value.innerHTML=int(value)+1
+		let btn =document.getDocumentByID("incrementBtn").onclick()=clicked
+		function clicked(){
+           alert("you clicked the button")
+		
+		})
 </script>
 
 </body>
